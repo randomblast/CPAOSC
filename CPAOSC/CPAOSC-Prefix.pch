@@ -1,0 +1,14 @@
+//
+// Prefix header for all source files of the 'CPAOSC' target in the 'CPAOSC' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+
+
+#import "CPANode.h"
+#import "CPAPluginProtocols.h"
+#import "CPAPlugInsController.h"
+#import "CPAPortsController.h"
+
+#endif
